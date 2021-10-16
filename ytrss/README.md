@@ -53,14 +53,15 @@ __Create low-bandwidth links to YouTube pages__
 
 #### Available Parameters
 
-- channel_id - ID of the channel you want to subscribe to.
-- playlist_id - ID of the playlist you want to subscribe to.
-- limit - Number of videos to show. Default is 10. YouTube max is 15 videos.
-- offset - Skip a number of items in the display of the feed. Default is 0 but limited to 14, because video list will only ever be 15 videos.
-- embed_width - Width of the embed iframe. Default is '100%'. Any valid CSS should work.
-- embed_height - Height of the embed iframe. Default is 'auto'. Any valid CSS should work.
-- embed_min_height - Minimum height of the embed iframe. Default is '200px'. Any valid CSS should work.
-
+- channel_id - (string) ID of the channel you want to subscribe to.
+- playlist_id - (string) ID of the playlist you want to subscribe to.
+- limit - (int) Number of videos to show. Default is 10. YouTube max is 15 videos.
+- offset - (int) Skip a number of items in the display of the feed. Default is 0 but limited to 14, because video list will only ever be 15 videos.
+- embed_width - (int) Width of the embed iframe. Default is '100%'. Any valid CSS should work.
+- embed_height - (int) Height of the embed iframe. Default is 'auto'. Any valid CSS should work.
+- embed_min_height - (int) Minimum height of the embed iframe. Default is '200px'. Any valid CSS should work.
+- controls - (bool) show controls on embed
+- privacy_enhanced - (bool) avoid tracking cookies on site, unless a video is actually played.
 
 #### Single Variables
 
